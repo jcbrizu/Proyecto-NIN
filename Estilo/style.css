@@ -19,10 +19,13 @@ margin-right: auto;
 	display: inline-block;
 }
 
-.logo {
+.header {
+	background-image: url("fh.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
 	padding-bottom: 15px;
 	padding-top: 15px;
-	background-color: #898c81;
+	background-color: black;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -106,9 +109,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afb2a4', end
 	text-align: justify;
 	font-size: 15px;
 	margin: 5px;
-	padding-bottom: 25px;
+	padding: 12px 12px 12px 12px;
 	display: inline-block;
 	width: 80%;
+	background-color: rgb(112, 114, 104);
 }
 
 .video .playlist {
@@ -148,10 +152,19 @@ table {
 
 }
 
+.fotosbanda {
+	display: inline-block;
+	background-color: rgb(112, 114, 104);
+	width: 80%;
+  margin: 5px;
+	padding: 50px 0px;
+
+}
+
 .fotosbanda img {
 
 display: inline-block;
-width: 40%
+width: 45%
 
 }
 

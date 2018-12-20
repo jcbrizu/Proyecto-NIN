@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+
+}
+
+header img{
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.barra li {
+	display: inline-block;
+}
+
+.logo {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background-color: #898c81;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+
+}
+
+img {
+	margin-left: 10px;
+}
+
+iframe {
+	margin-left: 10px;
+}
+
+.barra {
+	background: black;
+
+	padding: 10px;
+	text-align: center;
+	position: sticky;
+	top: 0;
+
+
+}
+nav a{
+	color: #fbffed;
+	font-size: 35px;
+	font-weight: bold;
+	padding-right: 15px;
+	text-decoration: none;
+	position: sticky;
+	top: 0;
+
+
+}
+
+nav a:hover {
+	color: #6e706b;
+	font-size: 35px;
+	font-weight: bold;
+	padding-right: 15px;
+	text-decoration: none;
+	position: sticky;
+	top: 0;
+
+}
+
+
+
+.titulo {
+	color: #49505b;
+	padding-bottom: 0px;
+	padding-top: 15px;
+	margin: 10px;
+	text-align: center;
+	/* display: inline-block; */
+}
+
+
+body {
+
+background: rgba(175,178,164,1);
+background: -moz-linear-gradient(top, rgba(175,178,164,1) 0%, rgba(175,178,164,1) 60%, rgba(128,130,118,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(175,178,164,1)), color-stop(60%, rgba(175,178,164,1)), color-stop(100%, rgba(128,130,118,1)));
+background: -webkit-linear-gradient(top, rgba(175,178,164,1) 0%, rgba(175,178,164,1) 60%, rgba(128,130,118,1) 100%);
+background: -o-linear-gradient(top, rgba(175,178,164,1) 0%, rgba(175,178,164,1) 60%, rgba(128,130,118,1) 100%);
+background: -ms-linear-gradient(top, rgba(175,178,164,1) 0%, rgba(175,178,164,1) 60%, rgba(128,130,118,1) 100%);
+background: linear-gradient(to bottom, rgba(175,178,164,1) 0%, rgba(175,178,164,1) 60%, rgba(128,130,118,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afb2a4', endColorstr='#808276', GradientType=0 );
+
+	font-family: sans-serif;
+}
+
+.resumen {
+	text-align: center;
+
+}
+
+.parrafo {
+	font-size: 15px;
+
+	margin: 10px;
+}
+
+.video .playlist {
+	display: inline-block;
+	width: 50%;
+}
+
+.pie {
+	font-size: 9px;
+	padding-top: 10px;
+	text-align: center;
+	font-style: italic;
+}
+
+.barra {
+	color:red;
+}
+
+h1,h2,h3 {
+	font-size: 30px;
+}
+
+.formu {
+	max-width: 250px;
+	margin-left: 10px;
+}
+
+.media iframe {
+
+	display: inline-block;
+
+
+}
+
+table {
+	border-collapse: collapse;
+
+}
+
+.fotosbanda img {
+
+display: inline-block;
+width: 40%
+
+}
+
+.integrantes {
+	margin: 30px;
+	padding: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.cajatr {
+	width: 45%;
+	display: inline-block;
+	margin: 10px;
+
+}
+
+.cajaar {
+	display: inline-block;
+	width: 45%;
+	margin: 10px;
+
+}
+
+.video  {
+	display: inline-block;
+	width: 45%;
+	height: 50%;
+
+}
+
+.media {
+	margin: 30px;
+	padding: 10px;
+	text-align: center;
+
+}
+
+.playlist  {
+	display: inline-block;
+	width: 45%;
+
+}

@@ -103,6 +103,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afb2a4', end
 }
 
 .parrafo {
+	text-align: justify;
 	font-size: 15px;
 	margin: 5px;
 	padding-bottom: 25px;

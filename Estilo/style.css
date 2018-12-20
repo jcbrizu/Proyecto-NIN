@@ -104,8 +104,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afb2a4', end
 
 .parrafo {
 	font-size: 15px;
-
-	margin: 10px;
+	margin: 5px;
+	padding-bottom: 25px;
+	display: inline-block;
+	width: 80%;
 }
 
 .video .playlist {
@@ -166,11 +168,22 @@ width: 40%
 
 }
 
+.cajatr p {
+	display: inline-block;
+	width: 500px;
+
+}
+
 .cajaar {
 	display: inline-block;
 	width: 45%;
 	margin: 10px;
 
+}
+
+.cajaar p {
+	display: inline-block;
+	width: 500px;
 }
 
 .video  {

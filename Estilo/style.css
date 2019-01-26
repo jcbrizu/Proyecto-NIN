@@ -33,9 +33,6 @@ margin-right: auto;
 
 }
 
-img {
-	margin-left: 10px;
-}
 
 iframe {
 	margin-left: 10px;
@@ -43,7 +40,6 @@ iframe {
 
 .barra {
 	background: black;
-
 	padding: 10px;
 	text-align: center;
 	position: sticky;
@@ -120,6 +116,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afb2a4', end
 	width: 50%;
 }
 
+.contacto {
+	text-align: center;
+}
+
 .pie {
 	font-size: 9px;
 	padding-top: 10px;
@@ -135,9 +135,23 @@ h1,h2,h3 {
 	font-size: 30px;
 }
 
+
+.wraper-formu {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+}
+
 .formu {
+	display: flex;
+	flex-wrap: wrap;
 	max-width: 250px;
 	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 70px;
+	justify-content: center;
+
 }
 
 .media iframe {
@@ -218,4 +232,25 @@ width: 45%
 	display: inline-block;
 	width: 45%;
 
+}
+
+.wraperdiscos {
+ display: flex;
+ justify-content: center;
+ width: 50%;
+ /* background-color: red; */
+ margin: auto;
+ margin-top: 5px;
+ padding: 2rem;
+
+}
+
+.grilladiscos {
+
+padding: 3px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+align-items: center;
+background-color: rgb(112, 114, 104);
+grid-gap: 3px;
 }

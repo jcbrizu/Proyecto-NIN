@@ -34,10 +34,6 @@ margin-right: auto;
 }
 
 
-iframe {
-	margin-left: 10px;
-}
-
 .barra {
 	background: black;
 	padding: 1px;
@@ -78,7 +74,7 @@ nav a:hover {
 	padding-top: 15px;
 	margin: 10px;
 	text-align: center;
-	/* display: inline-block; */
+
 }
 
 
@@ -108,14 +104,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afb2a4', end
 	padding: 12px 12px 12px 12px;
 	display: inline-block;
 	width: 80%;
-	background-color: rgb(112, 114, 104);
+	background-color: #8c8c8c;
   font-family: karla;
 }
 
-.video .playlist {
-	display: inline-block;
-	width: 50%;
-}
+
 
 .contacto {
 	text-align: center;
@@ -156,12 +149,7 @@ h1,h2,h3 {
 
 }
 
-.media iframe {
 
-	display: inline-block;
-
-
-}
 
 table {
 	border-collapse: collapse;
@@ -190,18 +178,22 @@ margin: 10px;
 	padding: 10px;
 	font-size: 15px;
 	text-align: center;
+	font-family: karla;
 }
 
 .cajatr {
 	width: 45%;
 	display: inline-block;
 	margin: 10px;
+	background-color: #732929;
+	padding-bottom: 10px;
 
 }
 
 .cajatr p {
 	display: inline-block;
 	width: 500px;
+		color: #f2f2f2;
 
 }
 
@@ -209,6 +201,8 @@ margin: 10px;
 	display: inline-block;
 	width: 45%;
 	margin: 10px;
+	background-color: #732929;
+	padding-bottom: 10px;
 
 
 }
@@ -216,30 +210,30 @@ margin: 10px;
 .cajaar p {
 	display: inline-block;
 	width: 500px;
+		color: #f2f2f2;
 }
 
-.video  {
-	display: inline-block;
-	width: 45%;
-	height: 50%;
+.integrantes .cajatr .titulo {
+	color: #f2f2f2;
+}
 
+.integrantes .cajaar .titulo {
+	color: #f2f2f2;
 }
 
 .media {
+ text-align: center;
+}
+
+.playlist {
 	display: inline-block;
-	align-content: center;
-	margin: 30px;
-	padding: 10px;
-	text-align: center;
-	background-color: red;
+	background-color: #732929;
+	width: 80%;
+	margin: 5px;
+	padding: 30px 0px;
 
 }
 
-.playlist  {
-	display: inline-block;
-	width: 45%;
-
-}
 
 .wraperdiscos {
  display: flex;
@@ -254,10 +248,15 @@ margin: 10px;
 
 .grilladiscos {
 
-padding: 3px;
+padding: 15px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr ;
 align-items: center;
-background-color: rgb(112, 114, 104);
+background-color: #732929;
 grid-gap: 3px;
+}
+
+.grilladiscos img:hover {
+	opacity: 0.6;
+	transition: .5s ease;
 }

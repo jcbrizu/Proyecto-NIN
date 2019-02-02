@@ -40,7 +40,7 @@ iframe {
 
 .barra {
 	background: black;
-	padding: 10px;
+	padding: 1px;
 	text-align: center;
 	position: sticky;
 	top: 0;
@@ -109,6 +109,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afb2a4', end
 	display: inline-block;
 	width: 80%;
 	background-color: rgb(112, 114, 104);
+  font-family: karla;
 }
 
 .video .playlist {
@@ -144,13 +145,14 @@ h1,h2,h3 {
 }
 
 .formu {
-	display: flex;
+	display: inline-block;
 	flex-wrap: wrap;
 	max-width: 250px;
 	margin-left: 10px;
 	margin-top: 10px;
 	margin-bottom: 70px;
 	justify-content: center;
+	background-color: red;
 
 }
 
@@ -168,17 +170,18 @@ table {
 
 .fotosbanda {
 	display: inline-block;
-	background-color: rgb(112, 114, 104);
+	background-color: #732929;
 	width: 80%;
   margin: 5px;
-	padding: 50px 0px;
+	padding: 30px 0px;
 
 }
 
 .fotosbanda img {
 
 display: inline-block;
-width: 45%
+width: 45%;
+margin: 10px;
 
 }
 
@@ -207,6 +210,7 @@ width: 45%
 	width: 45%;
 	margin: 10px;
 
+
 }
 
 .cajaar p {
@@ -222,9 +226,12 @@ width: 45%
 }
 
 .media {
+	display: inline-block;
+	align-content: center;
 	margin: 30px;
 	padding: 10px;
 	text-align: center;
+	background-color: red;
 
 }
 

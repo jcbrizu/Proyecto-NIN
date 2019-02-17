@@ -450,7 +450,11 @@ width: 90%;
 
 }
 
-@media screen and (max-width: 1024px){
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+	.media {
+		display: none;
+	}
 
 	.grilladiscos {
 	 text-align: center;
@@ -473,9 +477,7 @@ width: 90%;
 
 
 	.integrantes {
-		/* margin: 30px;
-		padding: 10px;
-		font-size: 15px; */
+
 		text-align: center;
 		font-family: karla;
 		width: auto;
@@ -484,7 +486,7 @@ width: 90%;
 
 	.integrantes img {
 		display: inline-block;
-		width: 90%;
+		width: 75%;
 	}
 
 	 .cajatr {
@@ -493,7 +495,9 @@ width: 90%;
 		margin: auto;
 		background-color: #732929;
 		padding: 10px;
+		padding-bottom: 20px;
 		margin-bottom: 10px;
+		pad
 
 	}
 
@@ -510,6 +514,7 @@ width: 90%;
 		margin: auto;
 		background-color: #732929;
 		padding: 10px;
+		padding-bottom: 20px;
 
 
 	}
@@ -539,4 +544,3 @@ width: 90%;
 	}
 
 	}
-}

@@ -38,7 +38,7 @@ margin-right: auto;
 	background: black;
 	padding: 1px;
 	text-align: center;
-	position: sticky;
+	/* position: sticky; */
 	top: 0;
 
 
@@ -216,7 +216,7 @@ margin: 10px;
 
 .grilladiscos {
  text-align: center;
- position: relative;
+
 
 }
 
@@ -231,6 +231,8 @@ margin: 10px;
 	justify-content: space-around;
 	align-items: center;
 	background-color: #732929;
+	position: relative;
+
 }
 
 .container {
